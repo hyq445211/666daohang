@@ -207,10 +207,6 @@ function tjsj($tjname)
 				<li class="list-group-item">
 					<b>服务器软件：</b><?php echo $_SERVER['SERVER_SOFTWARE'] ?>
 				</li>
-				<li class="list-group-item">
-					<b>授权状态：<?php echo siteurl(2, 2) ?></b>
-					<a href="https://www.lylme.com/spage/?url=<?php echo siteurl(2, 2) ?>" target="_blank">查询</a>
-				</li>
 
 				<li class="list-group-item">
 					<b>建站时间：</b><?php echo $conf['build'] ?>
