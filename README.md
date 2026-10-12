@@ -32,7 +32,7 @@
 一条命令完成部署，开箱即用，自动配置并导入数据库：
 
 ```bash
-docker run -d -p 8080:80 -v lylme_mysql:/var/lib/mysql -v lylme_www:/var/www/html --name lylme_spage lylme/lylme_spage
+docker run -d -p 8080:80 -v lylme_mysql:/var/lib/mysql -v lylme_www:/var/www/html --name lylme_spage hyq445211/666daohang
 ```
 #### 国内镜像加速
 ```bash
