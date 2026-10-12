@@ -43,6 +43,7 @@ $menu_map = array(
   'sou.php'          => 'sou',
   'pwd.php'          => 'pwd',
   'cleanimg.php'     => 'cleanimg',
+  'backup.php'       => 'backup',
   'update.php'       => 'update',
   'wxplus.php'       => 'wxplus',
   'license.php'      => 'license',
@@ -128,6 +129,7 @@ try {
             <li class="nav-item<?php echo menu_active('sou'); ?>"> <a href="./sou.php"><i class="mdi mdi-magnify"></i>搜索引擎</a></li>
             <li class="nav-item<?php echo menu_active('pwd'); ?>"> <a href="./pwd.php"><i class="mdi mdi-key-variant"></i>加密管理</a></li>
             <li class="nav-item<?php echo menu_active('cleanimg'); ?>"> <a href="./cleanimg.php"><i class="mdi mdi-image-filter"></i>文件清理</a> </li>
+            <li class="nav-item<?php echo menu_active('backup'); ?>"> <a href="./backup.php"><i class="mdi mdi-database-sync"></i>数据备份</a> </li>
             <li class="nav-item<?php echo menu_active('update'); ?>"> <a href="./update.php"><i class="mdi mdi-update"></i>检查更新</a> </li>
             <li class="nav-item<?php echo menu_active('wxplus'); ?>"> <a href="./wxplus.php"><i class="mdi mdi-wechat"></i>微信推送</a> </li>
 
